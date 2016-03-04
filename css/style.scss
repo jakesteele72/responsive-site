@@ -5,14 +5,15 @@
 
 	div {
 		background-color: #507B40;
-		padding: 7em;
+		padding: 2.25em;
 	}
 	p {
 		color: black;
 		text-align: center;
-		border-bottom: 1px solid black;
-		border-right: 1px solid black;
-		border-left: 1px solid black;
+		border: 1px solid black;
+		padding: 0.75em;
+		margin: 0 auto;
+		
 	}
 	a {
 		color: black;
@@ -26,15 +27,14 @@
 
 	div {
 		background-color: #223B70;
-		padding: 7em;
+		padding: 2.25em;
 	}
 	p {
 		color: black;
 		text-align: center;
-		border-bottom: 1px solid black;
-		border-right: 1px solid black;
-		border-left: 1px solid black;
-		border-top: 1px solid black;
+		border: 1px solid black;
+		padding: 1em;
+		margin: 0 auto;
 	}
 	a {
 		color: black;
@@ -52,18 +52,20 @@
 
 	div {
 		background-color: #0E0E0E;
-		padding: 7em;
+		padding: 2.25em;
 	}
 	p {
 		color: black;
 		text-align: center;
-		border-bottom: 1px solid black;
-		border-right: 1px solid black;
-		border-left: 1px solid black;
+		border: 1px solid black;
+		padding: 1em;
+		margin: 0 auto;
 	}
 	a {
 		color: black;
 		text-align: center;
+		padding: 6em;
+		margin: 0 auto;
 	}
 
 }

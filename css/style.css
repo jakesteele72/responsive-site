@@ -2,13 +2,13 @@
   background-color: #F4F4F4; }
   .green div {
     background-color: #507B40;
-    padding: 7em; }
+    padding: 2.25em; }
   .green p {
     color: black;
     text-align: center;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black; }
+    border: 1px solid black;
+    padding: 0.75em;
+    margin: 0 auto; }
   .green a {
     color: black;
     text-align: center; }
@@ -17,14 +17,13 @@
   background-color: #F4F4F4; }
   .blue div {
     background-color: #223B70;
-    padding: 7em; }
+    padding: 2.25em; }
   .blue p {
     color: black;
     text-align: center;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-top: 1px solid black; }
+    border: 1px solid black;
+    padding: 1em;
+    margin: 0 auto; }
   .blue a {
     color: black;
     text-align: center;
@@ -37,16 +36,18 @@
   background-color: #F4F4F4; }
   .black div {
     background-color: #0E0E0E;
-    padding: 7em; }
+    padding: 2.25em; }
   .black p {
     color: black;
     text-align: center;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black; }
+    border: 1px solid black;
+    padding: 1em;
+    margin: 0 auto; }
   .black a {
     color: black;
-    text-align: center; }
+    text-align: center;
+    padding: 6em;
+    margin: 0 auto; }
 
 footer {
   height: 6em;
