@@ -1,11 +1,21 @@
-
+$primary-color: #F4F4F4;
 
 .green {
-	background-color: #F4F4F4;
+	background-color: $primary-color;
 
 	div {
 		background-color: #507B40;
 		padding: 2.25em;
+		.personal {
+			color: white;
+
+		}
+		.five {
+			color: white;
+		}
+		.per-1 {
+			color: white;
+		}
 	}
 	p {
 		color: black;
@@ -18,16 +28,26 @@
 	a {
 		color: black;
 		text-align: center;
+		background-color: white;
 	}
 
 }
 
 .blue {
-	background-color: #F4F4F4;
+	background-color: $primary-color;
 
 	div {
 		background-color: #223B70;
 		padding: 2.25em;
+		.small {
+			color: white;
+		}
+		.twenty-five {
+			color: white;
+		}
+		.per-2 {
+			color: white;
+		}
 	}
 	p {
 		color: black;
@@ -43,16 +63,26 @@
 		border-right: 1px solid black;
 		border-left: 1px solid black;
 		border-top: 1px solid black;
+		background-color: white;
 	}
 
 }
 
 .black {
-	background-color: #F4F4F4;
+	background-color: $primary-color;
 
 	div {
 		background-color: #0E0E0E;
 		padding: 2.25em;
+		.enterprise {
+			color: white;
+		}
+		.forty-five {
+			color: white;
+		}
+		.per-3 {
+			color: white;
+		}
 	}
 	p {
 		color: black;
@@ -66,12 +96,16 @@
 		text-align: center;
 		padding: 6em;
 		margin: 0 auto;
+		background-color: white;
 	}
 
 }
  footer {
 	height: 6em;
 	background-color: black;
+	.try {
+		color: white;
+	}
  }
 
 
