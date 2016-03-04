@@ -3,62 +3,75 @@
 .green {
 	background-color: #F4F4F4;
 
-		div {
-			background-color: #223B70;
-			padding: 4em;
-		}
-		p {
-			color: white;
-			text-align: center;
-			border-bottom: 1px solid black;
-			border-right: 1px solid black;
-			border-left: 1px solid black;
-		}
-		a {
-			color: white;
-			text-align: center;
-		}
+	div {
+		background-color: #507B40;
+		padding: 7em;
+	}
+	p {
+		color: black;
+		text-align: center;
+		border-bottom: 1px solid black;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+	}
+	a {
+		color: black;
+		text-align: center;
+	}
 
 }
 
 .blue {
 	background-color: #F4F4F4;
 
-		div {
-			background-color: #507B40;
-			padding: 4em;
-		}
-		p {
-			color: white;
-			text-align: center;
-			border-bottom: 1px solid black;
-			border-right: 1px solid black;
-			border-left: 1px solid black;
-		}
-		a {
-			color: white;
-			text-align: center;
-		}
+	div {
+		background-color: #223B70;
+		padding: 7em;
+	}
+	p {
+		color: black;
+		text-align: center;
+		border-bottom: 1px solid black;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		border-top: 1px solid black;
+	}
+	a {
+		color: black;
+		text-align: center;
+		border-bottom: 1px solid black;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		border-top: 1px solid black;
+	}
 
 }
 
 .black {
 	background-color: #F4F4F4;
 
-		div {
-			background-color: #0E0E0E;
-			padding: 4em;
-		}
-		p {
-			color: white;
-			text-align: center;
-			border-bottom: 1px solid black;
-			border-right: 1px solid black;
-			border-left: 1px solid black;
-		}
-		a {
-			color: white;
-			text-align: center;
-		}
+	div {
+		background-color: #0E0E0E;
+		padding: 7em;
+	}
+	p {
+		color: black;
+		text-align: center;
+		border-bottom: 1px solid black;
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+	}
+	a {
+		color: black;
+		text-align: center;
+	}
 
 }
+ footer {
+	height: 6em;
+	background-color: black;
+ }
+
+
+
+

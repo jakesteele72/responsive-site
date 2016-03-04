@@ -1,3 +1,55 @@
+.green {
+  background-color: #F4F4F4; }
+  .green div {
+    background-color: #507B40;
+    padding: 7em; }
+  .green p {
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black; }
+  .green a {
+    color: black;
+    text-align: center; }
 
+.blue {
+  background-color: #F4F4F4; }
+  .blue div {
+    background-color: #223B70;
+    padding: 7em; }
+  .blue p {
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black; }
+  .blue a {
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black; }
+
+.black {
+  background-color: #F4F4F4; }
+  .black div {
+    background-color: #0E0E0E;
+    padding: 7em; }
+  .black p {
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black; }
+  .black a {
+    color: black;
+    text-align: center; }
+
+footer {
+  height: 6em;
+  background-color: black; }
 
 /*# sourceMappingURL=style.css.map */
