@@ -19,48 +19,54 @@ header {
     color: white;
     text-align: center;
     padding-top: 2.25em;
-    margin: 0 auto; }
+    margin: 0.5em; }
   header .try {
     color: white;
     text-align: center;
-    padding-bottom: 2em; }
+    padding-bottom: 2em;
+    margin-bottom: 1em; }
 
 .green {
   background-color: #F4F4F4;
-  max-width: 400px; }
-  .green div {
-    background-color: #507B40;
-    padding: 3em; }
-    .green div .personal {
-      color: white;
-      text-align: center;
-      margin: 0;
-      font-weight: 200; }
-    .green div .five {
-      color: white;
-      font-size: 4em;
-      text-align: center;
-      margin: 0;
-      font-weight: 200; }
-    .green div .per-1 {
-      color: white;
-      text-align: center;
-      margin: 0;
-      font-weight: 200; }
-  .green p {
-    color: #909699;
+  max-width: 400px;
+  margin-bottom: 2em; }
+
+div {
+  background-color: #507B40;
+  padding: 3em; }
+  div .personal {
+    color: white;
     text-align: center;
-    border: 0.5px solid #DBDBDB;
-    padding: 0.75em;
-    margin: 0 auto; }
-  .green a {
-    color: black;
+    margin: 0;
+    font-weight: 200; }
+  div .five {
+    color: white;
+    font-size: 4em;
     text-align: center;
-    background-color: white; }
+    margin: 0;
+    font-weight: 200; }
+  div .per-1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: 200; }
+
+p {
+  color: #6A7378;
+  text-align: center;
+  border: 0.5px solid #DBDBDB;
+  padding: 0.75em;
+  margin: 0 auto; }
+
+a {
+  color: black;
+  text-align: center;
+  background-color: white; }
 
 .blue {
   background-color: #F4F4F4;
-  max-width: 400px; }
+  max-width: 400px;
+  margin-bottom: 2em; }
   .blue div {
     background-color: #223B70;
     padding: 3em; }
@@ -81,7 +87,7 @@ header {
       margin: 0;
       font-weight: 100; }
   .blue p {
-    color: #909699;
+    color: #6A7378;
     text-align: center;
     border: 0.5px solid #DBDBDB;
     padding: 0.75em;
@@ -120,7 +126,7 @@ header {
       margin: 0;
       font-weight: 200; }
   .black p {
-    color: #909699;
+    color: #6A7378;
     text-align: center;
     border: 0.5px solid #DBDBDB;
     padding: 0.75em;
@@ -173,7 +179,7 @@ header {
 footer {
   height: 6em;
   background-color: black;
-  max-width: 400px; }
+  max-width: 100%; }
   footer .try {
     color: white;
     text-align: center;
