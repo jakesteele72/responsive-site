@@ -1,18 +1,56 @@
+body {
+  padding: 1em; }
+
+nav {
+  max-width: 400px;
+  margin-bottom: 0.5em; }
+  nav .home {
+    padding-left: 2em; }
+  nav .pricing {
+    padding-left: 2em; }
+  nav .contact {
+    padding-left: 2em; }
+
+header {
+  background-image: url("https://images.unsplash.com/2/05.jpg");
+  max-width: 400px;
+  margin-bottom: 4em; }
+  header .simple {
+    color: white;
+    text-align: center;
+    padding-top: 2.25em;
+    margin: 0 auto; }
+  header .try {
+    color: white;
+    text-align: center;
+    padding-bottom: 2em; }
+
 .green {
-  background-color: #F4F4F4; }
+  background-color: #F4F4F4;
+  max-width: 400px; }
   .green div {
     background-color: #507B40;
-    padding: 2.25em; }
+    padding: 3em; }
     .green div .personal {
-      color: white; }
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-weight: 200; }
     .green div .five {
-      color: white; }
+      color: white;
+      font-size: 4em;
+      text-align: center;
+      margin: 0;
+      font-weight: 200; }
     .green div .per-1 {
-      color: white; }
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-weight: 200; }
   .green p {
-    color: black;
+    color: #909699;
     text-align: center;
-    border: 1px solid black;
+    border: 0.5px solid #DBDBDB;
     padding: 0.75em;
     margin: 0 auto; }
   .green a {
@@ -21,21 +59,32 @@
     background-color: white; }
 
 .blue {
-  background-color: #F4F4F4; }
+  background-color: #F4F4F4;
+  max-width: 400px; }
   .blue div {
     background-color: #223B70;
-    padding: 2.25em; }
+    padding: 3em; }
     .blue div .small {
-      color: white; }
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-weight: 200; }
     .blue div .twenty-five {
-      color: white; }
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-size: 4em;
+      font-weight: 200; }
     .blue div .per-2 {
-      color: white; }
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-weight: 100; }
   .blue p {
-    color: black;
+    color: #909699;
     text-align: center;
-    border: 1px solid black;
-    padding: 1em;
+    border: 0.5px solid #DBDBDB;
+    padding: 0.75em;
     margin: 0 auto; }
   .blue a {
     color: black;
@@ -47,33 +96,93 @@
     background-color: white; }
 
 .black {
-  background-color: #F4F4F4; }
+  background-color: #F4F4F4;
+  margin-bottom: 8em;
+  max-width: 400px; }
   .black div {
     background-color: #0E0E0E;
-    padding: 2.25em; }
+    padding: 3em; }
     .black div .enterprise {
-      color: white; }
+      color: white;
+      text-align: center;
+      font-size: 1.5em;
+      margin: 0;
+      font-weight: 200; }
     .black div .forty-five {
-      color: white; }
+      color: white;
+      text-align: center;
+      font-size: 4em;
+      margin: 0;
+      font-weight: 200; }
     .black div .per-3 {
-      color: white; }
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-weight: 200; }
   .black p {
-    color: black;
+    color: #909699;
     text-align: center;
-    border: 1px solid black;
-    padding: 1em;
+    border: 0.5px solid #DBDBDB;
+    padding: 0.75em;
     margin: 0 auto; }
-  .black a {
-    color: black;
-    text-align: center;
-    padding: 6em;
-    margin: 0 auto;
-    background-color: white; }
+  .black .choose {
+    background-color: white;
+    border: 0.5px solid #DBDBDB;
+    padding-left: 16em;
+    text-align: center; }
+    .black .choose .button-3 {
+      border-radius: 35%;
+      background-color: white;
+      padding-right: 1em;
+      padding-left: 1em;
+      padding-bottom: 0.5em;
+      padding-top: 0.5em; }
+
+.start {
+  margin-bottom: 4em;
+  max-width: 400px;
+  font-size: 1.25em; }
+  .start .start-1 {
+    color: #8C9397;
+    width: 75%; }
+
+.monthly {
+  margin-bottom: 4em;
+  max-width: 400px;
+  font-size: 1.25em; }
+  .monthly .monthly-1 {
+    width: 75%;
+    color: #8C9397; }
+
+.customer {
+  margin-bottom: 4em;
+  max-width: 400px;
+  font-size: 1.25em; }
+  .customer .customer-1 {
+    width: 75%;
+    color: #8C9397; }
+
+.cancel {
+  margin-bottom: 1em;
+  max-width: 400px;
+  font-size: 1.25em; }
+  .cancel .cancel-1 {
+    width: 75%;
+    color: #8C9397; }
 
 footer {
   height: 6em;
-  background-color: black; }
+  background-color: black;
+  max-width: 400px; }
   footer .try {
-    color: white; }
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5em;
+    padding-top: 1.5em; }
+  footer .image {
+    color: white;
+    text-align: center;
+    padding-bottom: 2.5em;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,26 +1,74 @@
 $primary-color: #F4F4F4;
+body {
+	padding: 1em;
+}
+nav {
+	max-width: 400px;
+	margin-bottom: 0.5em;
+	.home {
+		padding-left: 2em;
+	}
+	.pricing {
+		padding-left: 2em;
+	}
+	.contact {
+		padding-left: 2em;
+	}
+}
 
+header {
+	background-image: url('https://images.unsplash.com/2/05.jpg');
+	max-width: 400px;
+	margin-bottom: 4em;
+	.simple {
+		color: white;
+		text-align: center;
+		padding-top: 2.25em;
+		margin: 0 auto;
+	}
+	.try {
+		color: white;
+		text-align: center;
+		padding-bottom: 2em;
+	}
+
+}
 .green {
 	background-color: $primary-color;
+	max-width: 400px;
 
 	div {
 		background-color: #507B40;
-		padding: 2.25em;
+		padding: 3em;
+		
 		.personal {
 			color: white;
+			text-align: center;
+			margin: 0;
+			font-weight: 200;
+			
 
 		}
 		.five {
 			color: white;
+			font-size: 4em;
+			text-align: center;
+			margin: 0;
+			font-weight: 200;
+			
 		}
 		.per-1 {
 			color: white;
+			text-align: center;
+			margin: 0;
+			font-weight: 200;
+			
 		}
 	}
 	p {
-		color: black;
+		color: #909699;
 		text-align: center;
-		border: 1px solid black;
+		border: 0.5px solid #DBDBDB;
 		padding: 0.75em;
 		margin: 0 auto;
 		
@@ -29,32 +77,49 @@ $primary-color: #F4F4F4;
 		color: black;
 		text-align: center;
 		background-color: white;
+		
 	}
 
 }
 
 .blue {
 	background-color: $primary-color;
+	max-width: 400px;
 
 	div {
 		background-color: #223B70;
-		padding: 2.25em;
+		padding: 3em;
+		
 		.small {
 			color: white;
+			text-align: center;
+			margin: 0;
+			font-weight: 200;
+			
 		}
 		.twenty-five {
 			color: white;
+			text-align: center;
+			margin: 0;
+			font-size: 4em;
+			font-weight: 200;
+			
 		}
 		.per-2 {
 			color: white;
+			text-align: center;
+			margin: 0;
+			font-weight: 100;
+			
 		}
 	}
 	p {
-		color: black;
+		color: #909699;
 		text-align: center;
-		border: 1px solid black;
-		padding: 1em;
+		border: 0.5px solid #DBDBDB;
+		padding: 0.75em;
 		margin: 0 auto;
+		
 	}
 	a {
 		color: black;
@@ -64,49 +129,123 @@ $primary-color: #F4F4F4;
 		border-left: 1px solid black;
 		border-top: 1px solid black;
 		background-color: white;
+		
 	}
 
 }
 
 .black {
 	background-color: $primary-color;
+	margin-bottom: 8em;
+	max-width: 400px;
 
 	div {
 		background-color: #0E0E0E;
-		padding: 2.25em;
+		padding: 3em;
 		.enterprise {
 			color: white;
+			text-align: center;
+			font-size: 1.5em;
+			margin: 0;
+			font-weight: 200;
+
 		}
 		.forty-five {
 			color: white;
+			text-align: center;
+			font-size: 4em;
+			margin: 0;
+			font-weight: 200;
 		}
 		.per-3 {
 			color: white;
+			text-align: center;
+			margin: 0;
+			font-weight: 200;
 		}
 	}
 	p {
-		color: black;
+		color: #909699;
 		text-align: center;
-		border: 1px solid black;
-		padding: 1em;
+		border: 0.5px solid #DBDBDB;
+		padding: 0.75em;
 		margin: 0 auto;
 	}
-	a {
-		color: black;
-		text-align: center;
-		padding: 6em;
-		margin: 0 auto;
+	
+	.choose {
+	
 		background-color: white;
+		border: 0.5px solid #DBDBDB;
+		padding-left: 16em;
+		
+		text-align: center;
+		.button-3 {
+			border-radius: 35%;
+			background-color: white;
+			padding-right: 1em;
+			padding-left: 1em;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+
+		}
 	}
 
 }
+.start {
+	margin-bottom: 4em;
+	max-width: 400px;
+	font-size: 1.25em;
+	.start-1 {
+		color: #8C9397;
+		width: 75%;
+	}
+}
+.monthly {
+	margin-bottom: 4em;
+	max-width: 400px;
+	font-size: 1.25em;
+	.monthly-1 {
+		width: 75%;
+		color: #8C9397;
+	}
+}
+.customer {
+	margin-bottom: 4em;
+	max-width: 400px;
+	font-size: 1.25em;
+	.customer-1 {
+		width: 75%;
+		color: #8C9397;
+	}
+}
+.cancel {
+	margin-bottom: 1em;
+	max-width: 400px;
+	font-size: 1.25em;
+		.cancel-1 {
+			width: 75%;
+			color: #8C9397;
+		}
+}
+
  footer {
 	height: 6em;
 	background-color: black;
+	max-width: 400px;
 	.try {
 		color: white;
+		text-align: center;
+		margin-bottom: 0.5em;
+		padding-top: 1.5em;
+	}
+	.image {
+		color: white;
+		text-align: center;
+		padding-bottom: 2.5em;
+		margin: 0 auto;
 	}
  }
+
 
 
 
