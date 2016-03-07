@@ -30,39 +30,41 @@ header {
   background-color: #F4F4F4;
   max-width: 400px;
   margin-bottom: 2em; }
-
-div {
-  background-color: #507B40;
-  padding: 3em; }
-  div .personal {
-    color: white;
+  .green div {
+    background-color: #507B40;
+    padding: 3em; }
+    .green div .personal {
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-weight: 200; }
+    .green div .five {
+      color: white;
+      font-size: 4em;
+      text-align: center;
+      margin: 0;
+      font-weight: 200; }
+    .green div .per-1 {
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-weight: 200; }
+  .green p {
+    color: #6A7378;
     text-align: center;
-    margin: 0;
-    font-weight: 200; }
-  div .five {
-    color: white;
-    font-size: 4em;
+    border: 0.5px solid #DBDBDB;
+    padding: 0.75em;
+    margin: 0 auto; }
+  .green a {
+    color: black;
     text-align: center;
-    margin: 0;
-    font-weight: 200; }
-  div .per-1 {
-    color: white;
-    text-align: center;
-    margin: 0;
-    font-weight: 200; }
+    background-color: white; }
 
-p {
-  color: #6A7378;
-  text-align: center;
-  border: 0.5px solid #DBDBDB;
-  padding: 0.75em;
-  margin: 0 auto; }
-
-a {
-  color: black;
-  text-align: center;
-  background-color: white; }
-
+@media (min-width: 750px) {
+  section > div {
+    float: left;
+    width: 32%;
+    margin: 0 0.6%; } }
 .blue {
   background-color: #F4F4F4;
   max-width: 400px;
@@ -176,6 +178,13 @@ a {
     width: 75%;
     color: #8C9397; }
 
+@media (min-width: 600px) {
+  div {
+    float: left;
+    width: 50%; }
+    div > p {
+      float: left;
+      width: 50%; } }
 footer {
   height: 6em;
   background-color: black;
